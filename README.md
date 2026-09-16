@@ -2,7 +2,7 @@
 Linux_1
 
 ## working with git and github
-clone repo
+clone repo.
 
 ```bash
 git clone REPO_URL

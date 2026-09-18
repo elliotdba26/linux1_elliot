@@ -1,3 +1,5 @@
 ```bash
-123
+cd = enter directory
+ls = show files
+cd ../ = go back
 ```

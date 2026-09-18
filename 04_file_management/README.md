@@ -15,4 +15,5 @@ rm -r # removes directory and its contents
 # Move files
 ```bash
 mv filename.txt newlocation/ # moves filename.txt to newlocation/
+mv filename.txt filename2.txt # changes name
 ```

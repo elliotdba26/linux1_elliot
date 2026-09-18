@@ -5,7 +5,7 @@ clone repo.
 git clone REPO_URL
 ```
 
-## commit and push changes to github
+## Commit and push changes to github
 ```bash
 git add .
 git commit -m "a relevant commit message"

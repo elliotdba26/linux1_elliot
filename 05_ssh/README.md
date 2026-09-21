@@ -3,7 +3,7 @@
 sh-keygen -t ed25519 -C "your_name"
 ```
 # In git bash
-```bash 
+```bash
 ssh-copy-id -i ~/.ssh/id_ed25519.pub your_name@192.168.1.159```
  
 # in ssh. disable password auth

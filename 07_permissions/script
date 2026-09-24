@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+name='username123'
+echo "hello $nameo, example."

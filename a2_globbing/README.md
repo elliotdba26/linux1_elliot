@@ -1,3 +1,4 @@
+```bash
 # *  – matches any number of characters
 ls *.txt
 
@@ -9,3 +10,4 @@ ls file[123].txt
 
 # {} – brace expansion (generates names)
 mkdir dir{a,b,c}
+```

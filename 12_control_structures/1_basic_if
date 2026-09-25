@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+age=$1
+if [[ $age -ge 18 ]]; then
+	echo "welcome to pub"
+elif [[ $age -ge 13 ]]; then
+	echo "beat it kid"
+else
+	echo "you are too young"
+fi
+
+echo "program continues here  ..."

@@ -3,7 +3,7 @@
 #5/3
 echo "5/3 = $((5/3))"
 
-echo "5/3" && echo "scale=2; 5/3" | bc 
+echo "5/3 =" && echo "scale=2; 5/3" | bc 
 #5+3
 echo "5+3 = $((5+3))"
 #5%3
@@ -12,7 +12,7 @@ echo "5%3 = $((5%3))"
 echo "5-3 = $((5-3))"
 
 pi=3.141592
-radius=1
+radius=2
 area=$(echo "scale=2; $pi*$radius^2" | bc
 )
 

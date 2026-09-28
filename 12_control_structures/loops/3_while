@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 i=0
-while [[ $i- -le 10 ]]; do
+while [[ $i -le 10 ]]; do
     echo "number $i"
     ((i+=1))
 done

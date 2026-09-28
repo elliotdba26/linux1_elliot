@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# -p makes it id empotent
+mkdir -p assets
+touch assets/cool{1..5}.md
+touch assets/cool{1..5}.txt
+
+echo "files in directory"
+for file in assets/*; do
+    echo "$file"
+done

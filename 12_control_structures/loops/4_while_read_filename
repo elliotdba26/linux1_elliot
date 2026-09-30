@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 
-#IFS - internal field separator
+# IFS - internal field separator
 # default: separates space, tab, newline
 
-    while IFS= read -r filename; do
-        if [[ -f "$filename" ]]; then
-            echo "$filename is a file"
+while IFS= read -r filename; do
+    if [[ -f "$filename" ]]; then
+        echo "$filename is a file"
     else
-            echo "$filename not found"
+        echo "$filename not found"
     fi
 done < assets/filelist.txt
+

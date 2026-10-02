@@ -4,3 +4,11 @@ fruit="sweet mango mango"
 
 # replace last mango with kiwi
 echo "${fruit/mango/kiwi}"
+# replace all mango with kiwi
+echo "${fruit//mango/kiwi}"
+# replace last mango with kiwi
+echo "${fruit/%mango/kiwi}"
+
+# replaces from beginning
+echo "${fruit/#mango/kiwi}"
+echo "${fruit/#sweet/sour}"

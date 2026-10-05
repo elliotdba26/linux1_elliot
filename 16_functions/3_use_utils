@@ -1,0 +1,7 @@
+#!/usr/bin/env bash 
+
+source 2_utils
+
+if file_exists "utils"; then
+    echo "utils exists"
+fi
